@@ -30,6 +30,24 @@ app.get(
   }
 );
 
+// Chaining Route Handlers
+const one = (req, res, next) => {
+  console.log('one');
+  next();
+};
+
+const two = (req, res, next) => {
+  console.log('two');
+  next();
+};
+
+const three = (req, res) => {
+  console.log('three');
+  res.send('Tasks Completed!');
+};
+
+// How to use the chained commands in our app
+app.get('/chain(.html)?', [one, two, three]);
 app.get('/*', (req, res) => {
   res.status(404).sendFile(path.join(__dirname, 'views', '404.html'));
 });
