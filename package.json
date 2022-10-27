@@ -1,0 +1,21 @@
+{
+  "name": "express-web-server-tutorial",
+  "version": "1.0.0",
+  "description": "This folder describes how to build a web server in Express.js",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Moses Githinji",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.29.3",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
