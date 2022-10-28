@@ -1,2 +1,11 @@
 20221028	13:44:12	fc23cb16-44fb-4457-a7ec-8d4ff0768a21	Error: Not allowed by CORS
 20221028	13:48:35	ce92ccb9-7554-4280-934f-d677b4726a66	TypeError: whitelist.index is not a function
+20221028	15:25:24	adebd20a-07ca-46e3-a8e5-6942896f9d35	ReferenceError: __dirname is not defined
+20221028	15:26:13	178e7743-6584-4a82-bc4d-91b4cdb24204	Error: ENOENT: no such file or directory, stat 'C:\Users\USER\express-web-server\views\subdir\index.html'
+20221028	15:27:06	70b1646f-33f8-45a2-8792-6c5c774b3405	Error: ENOENT: no such file or directory, stat 'C:\Users\USER\express-web-server\express-server\views\subdir\index.html'
+20221028	15:28:56	33d7145c-5f48-4a50-b812-7361c0adeca0	Error: ENOENT: no such file or directory, stat 'C:\Users\USER\express-web-server\express-server\views\subdir\index.html'
+20221028	15:28:59	e815dc16-7086-46e9-a66c-c5b2bfb7a775	Error: ENOENT: no such file or directory, stat 'C:\Users\USER\express-web-server\express-server\views\subdir\index.html'
+20221028	15:29:00	c121830b-255f-4674-a20c-1a0f7558b0a3	Error: ENOENT: no such file or directory, stat 'C:\Users\USER\express-web-server\express-server\views\subdir\index.html'
+20221028	15:29:00	af852a1b-ab48-4360-9371-6460a1687ccf	Error: ENOENT: no such file or directory, stat 'C:\Users\USER\express-web-server\express-server\views\subdir\index.html'
+20221028	15:29:00	33c02ada-9043-422f-b3ec-8b66180ee28b	Error: ENOENT: no such file or directory, stat 'C:\Users\USER\express-web-server\express-server\views\subdir\index.html'
+20221028	15:29:01	e3ed7e1f-2e3f-4ca1-bbf2-3062e84d5df4	Error: ENOENT: no such file or directory, stat 'C:\Users\USER\express-web-server\express-server\views\subdir\index.html'

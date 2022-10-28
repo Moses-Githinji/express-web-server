@@ -22,6 +22,15 @@
   text-transform: uppercase;
 }
 
+.test-page-style > h1 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  color: #e61a1a;
+  font-size: 2rem;
+  margin: auto;
+  text-transform: uppercase;
+}
+
 .page-desc {
   color: gray;
   text-align: center;

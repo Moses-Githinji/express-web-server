@@ -3,6 +3,8 @@ import path from 'path';
 import cors from 'cors';
 import { logger } from './middleware/logEvents.js';
 import { errorHandler } from './middleware/errorHandler.js';
+import router from './routes/subdir.js';
+import root from './routes/root.js';
 
 const app = express();
 const __dirname = path.resolve();
@@ -39,51 +41,11 @@ app.use(express.json());
 
 // serve static files
 app.use(express.static(path.join(__dirname, '/public')));
+app.use('/subdir', express.static(path.join(__dirname, '/public')));
 
-// ^/$|/index(.html)? ====>>>>> Means that in the route we must either have a '/' or '/index.html' but, the .html extension can be omitted
-app.get('^/$|/index(.html)?', (req, res) => {
-  // res.sendFile('./views/index.html', { root: __dirname });
-  res.sendFile(path.join(__dirname, 'views', 'index.html'));
-});
+app.use('/', root);
 
-app.get('/new-page(.html)?', (req, res) => {
-  res.sendFile(path.join(__dirname, 'views', 'new-page.html'));
-});
-
-app.get('/old-page(.html)?', (req, res) => {
-  res.redirect(301, '/new-page.html');
-});
-
-// Route Handlers
-app.get(
-  '/hello(.html)?',
-  (req, res, next) => {
-    console.log(`Attempted to load hello.html!!`);
-    next();
-  },
-  (req, res) => {
-    res.send('Hello World!!');
-  }
-);
-
-// Chaining Route Handlers
-const one = (req, res, next) => {
-  console.log('one');
-  next();
-};
-
-const two = (req, res, next) => {
-  console.log('two');
-  next();
-};
-
-const three = (req, res) => {
-  console.log('three');
-  res.send('Tasks Completed!');
-};
-
-// How to use the chained commands in our app
-app.get('/chain(.html)?', [one, two, three]);
+app.use('/subdir', router);
 
 app.all('*', (req, res) => {
   res.status(404);
