@@ -1,9 +1,72 @@
-20221027	17:03:41	2cc674c0-5ea0-469f-98ae-b701f202f4f1	/new-page	GET
-20221027	17:03:43	da21ef3a-b70b-4a0f-a8c2-8c9716e14bec	/img/duvet1.jpg	GET
-20221027	17:03:48	2220ff93-c33f-4f75-b375-4f397ce30680	/favicon.ico	GET
-20221027	17:12:31	ddffea2d-a084-4216-9b1f-3a54674e0fab	/new-page	GET
-20221027	17:15:13	ca446a9b-555b-4976-bdcd-76eadee9a81a	/new-page	GET
-20221027	17:15:26	dbcc73e1-994b-4e39-a301-58635eed6f68	/new-page	GET
-20221027	17:15:44	8fd91f8c-d4b5-4bd8-b131-07768cfd50a9	/new-page	GET
-20221027	17:15:44	2f0b57b7-ada5-45c4-8388-d45fd14ef429	/img/duvet1.jpg	GET
-20221027	17:15:45	1636ef46-d78b-4044-b5eb-fd66474ed544	/favicon.ico	GET
+20221028	12:27:43	46e8bf58-22b1-4608-8ecb-4184e8bdfb81	GET	undefined	/new-page.html
+20221028	12:27:43	ae645cc5-a81d-49b4-a03e-94603b205298	GET	undefined	/css/style.css
+20221028	12:27:43	ceb628de-9ebd-4a8f-8cd5-1143de9f1aea	GET	undefined	/img/duvet1.jpg
+20221028	12:27:44	22639d63-02f0-4f74-ad04-a99ea4902a81	GET	undefined	/new-page.html
+20221028	12:27:44	a942b5e3-75c6-40dd-955c-93a14e905bed	GET	undefined	/css/style.css
+20221028	12:27:44	ca75afc4-fd22-4501-8909-7cd3fe64bd5a	GET	undefined	/img/duvet1.jpg
+20221028	12:30:38	37f73d02-56a7-48dd-9c39-82175d574cf7	GET	undefined	/
+20221028	12:30:39	dc0fc878-94b1-45b0-86dc-063373783476	GET	undefined	/css/style.css
+20221028	12:34:32	6d82a9cc-8dc8-4bfd-b629-5b6a621a7c19	GET	undefined	/
+20221028	12:34:33	2c051af4-b14c-410f-882a-355fadbb94c6	GET	undefined	/css/style.css
+20221028	12:35:11	98a11598-ec15-45a7-8d1c-75fd426df46c	GET	undefined	/bob
+20221028	12:35:11	a50d8a3a-456a-43e0-a594-b2af18877d5c	GET	undefined	/css/style.css
+20221028	12:35:11	f2f63beb-298d-460e-8587-7e314c86af3b	GET	undefined	/img/404.jpg
+20221028	12:35:50	d4985525-e884-41b8-ba4d-e5eb07c1a233	GET	undefined	/new-page.html
+20221028	12:35:50	d5b74aab-88a2-40be-8896-94c08f74b1d5	GET	undefined	/css/style.css
+20221028	12:35:50	2ecc00f4-b940-40b3-9eeb-53c5fe8a1792	GET	undefined	/img/duvet1.jpg
+20221028	12:35:51	d8513691-aef8-4163-8cf3-440a68ef4570	GET	undefined	/css/style.css
+20221028	12:36:03	0fa0eac9-e9a3-4ea2-8503-f451a0f5aba1	GET	undefined	/new-page.html
+20221028	12:36:03	afc38686-9293-4477-9287-1dbc385c53e7	GET	undefined	/css/style.css
+20221028	12:36:03	5c7fe34b-aeed-4ecb-a76c-cae4faef4b2b	GET	undefined	/img/duvet1.jpg
+20221028	12:36:04	f8df9776-c3ca-4d38-918e-f8df64c293a1	GET	undefined	/img/duvet1.jpg
+20221028	12:36:09	14f01d7b-f3e4-4886-be65-960aa27ec73c	GET	undefined	/new-page.html
+20221028	12:36:09	c96f33f2-30ed-4b4d-90d8-4aeed334eb9a	GET	undefined	/css/style.css
+20221028	12:36:09	7a8fce72-7120-4a15-9695-d5fd71fa4d45	GET	undefined	/img/duvet1.jpg
+20221028	12:36:10	86560746-5943-4087-8cfc-b03a26201236	GET	undefined	/new-page.html
+20221028	12:36:10	fb53b031-91ba-4d78-9fb7-8b1fbf7fa63c	GET	undefined	/css/style.css
+20221028	12:36:10	1a042830-865e-4d9f-a121-d9285ffd5f70	GET	undefined	/img/duvet1.jpg
+20221028	12:36:10	8b46b54e-f968-424c-b5f6-8a535d315ca7	GET	undefined	/new-page.html
+20221028	12:36:10	10a94bef-a53a-4496-816d-520faa834681	GET	undefined	/css/style.css
+20221028	12:36:10	ea9f24c8-1451-44ff-9315-9cf5e1b72cec	GET	undefined	/img/duvet1.jpg
+20221028	12:36:10	5152f80d-5a96-4d65-b3f5-7dd5d8870616	GET	undefined	/new-page.html
+20221028	12:36:10	54087d9b-388b-411d-aa98-f7a12ffdb058	GET	undefined	/css/style.css
+20221028	12:36:10	84815643-5ee1-4e4d-bc19-8ac883c3d0f6	GET	undefined	/img/duvet1.jpg
+20221028	12:36:26	a6d4c7a8-fdf4-4820-b06e-8a2d41e29556	GET	undefined	/mku
+20221028	12:36:26	5e5b19dd-7af9-4b85-80f4-136e5b365c2c	GET	undefined	/css/style.css
+20221028	12:36:26	07a95689-f328-44b6-b6b4-d7d5487cb03e	GET	undefined	/img/404.jpg
+20221028	12:47:53	dfea0585-41a9-497c-9946-8f752dd30418	GET	undefined	/mku
+20221028	12:47:54	39da16c6-af3e-4a54-b091-f4c6f4fb87f3	GET	undefined	/css/style.css
+20221028	12:47:54	235b2078-a2e9-4700-be0d-14a6d268c324	GET	undefined	/img/404.jpg
+20221028	12:51:21	fcbe8afd-4bec-4bb5-9985-d6a2f2b41390	OPTIONS	https://www.google.com	/
+20221028	12:51:21	2f26d9d4-28cf-4f5b-afa0-a85048696669	GET	https://www.google.com	/
+20221028	12:51:54	5387f15c-a935-4eaa-83ff-d42f5ad804ba	OPTIONS	https://www.google.com	/mku
+20221028	12:51:54	e24c007c-5c89-4926-b6b1-2b9d7fec14fc	GET	https://www.google.com	/mku
+20221028	12:57:02	caa93939-eee2-4d1e-8728-d74ac261df30	OPTIONS	https://www.google.com	/new-page
+20221028	12:57:02	d42261de-c71c-457e-83d3-822ed432a6fe	GET	https://www.google.com	/new-page
+20221028	13:07:57	7dc87cb6-6937-4bb1-bb30-559e4b870f6b	OPTIONS	https://www.google.com	/mku
+20221028	13:07:57	2de7dc02-d0f8-4dc5-b1e8-4a63c74e5d97	GET	https://www.google.com	/mku
+20221028	13:20:14	6639eee1-2652-4f62-956d-fb5aa5e05603	OPTIONS	https://www.google.com	/
+20221028	13:20:14	89d30471-3c56-4c65-8656-0beae92119b0	GET	https://www.google.com	/
+20221028	13:21:58	73bf5068-49a8-4f2e-b699-3cd1d0aeea45	OPTIONS	https://www.google.com	/
+20221028	13:21:58	71712720-5d09-4c79-8ff7-c8407ac789a6	GET	https://www.google.com	/
+20221028	13:26:35	05fc1968-7471-4488-85f4-1d19e727b7d3	GET	undefined	/css/style.css
+20221028	13:26:35	e6cb72ae-accd-40ad-915c-6f03f22956d4	GET	undefined	/img/404.jpg
+20221028	13:26:38	a2d816f6-d9ca-4380-b788-34cb7b99e872	GET	undefined	/mku
+20221028	13:28:44	299b43f7-dddd-427c-a6f2-e2a2ac3abfcd	GET	undefined	/mku
+20221028	13:29:41	7ca20aba-6e7f-4197-888e-ef659b5ddd26	GET	undefined	/mku
+20221028	13:29:42	fc7aabca-bdb2-4f43-a73f-3ceab623430a	GET	undefined	/css/style.css
+20221028	13:29:42	1124655d-066b-4a47-878e-55cfeac6d1f2	GET	undefined	/img/404.jpg
+20221028	13:36:07	fdb30610-4f63-4af6-9a08-a100a24db8f4	GET	undefined	/mku
+20221028	13:36:07	44516a4a-e379-406f-ab14-36b4f5b200ba	GET	undefined	/css/style.css
+20221028	13:36:07	1cff5bd9-0987-43ab-90e0-0b7abdcc4592	GET	undefined	/img/404.jpg
+20221028	13:36:43	df02480f-8818-4e3c-b0f2-e95f5584d37c	GET	undefined	/mku
+20221028	13:36:43	4a688e05-76b1-47f9-bb4f-dfc3f41d635d	GET	undefined	/css/style.css
+20221028	13:36:43	5d996f65-e200-48ba-889e-bdd1f0c46013	GET	undefined	/img/404.jpg
+20221028	13:36:43	8c8bbb10-af1b-4f3d-b2d5-7346d3f42b74	GET	undefined	/mku
+20221028	13:36:43	8e432451-8c8a-4731-bd43-8a32358332df	GET	undefined	/css/style.css
+20221028	13:36:43	665721e6-0e7e-4685-b72f-d9caf93544ca	GET	undefined	/img/404.jpg
+20221028	13:43:43	486d3843-cbb7-4740-b04c-e4f79ca6abd5	GET	undefined	/mku
+20221028	13:44:12	f50fd175-a4e4-47cb-8da0-246192b188c7	GET	undefined	/mku
+20221028	13:44:29	da69357d-7f4b-4df2-bd1d-c081b0dcac84	GET	undefined	/mku
+20221028	13:44:29	44584472-c929-482e-b584-0adf969388db	GET	undefined	/css/style.css
+20221028	13:44:29	bc5f6c7a-9dff-41c6-8b5b-a5ae96aa6be5	GET	undefined	/img/404.jpg

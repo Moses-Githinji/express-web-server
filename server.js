@@ -1,9 +1,33 @@
 import express from 'express';
 import path from 'path';
+import cors from 'cors';
+import { logEvents, logger } from './middleware/logEvents.js';
+import { errorHandler } from './middleware/errorHandler.js';
 
 const app = express();
 const __dirname = path.resolve();
 const PORT = process.env.PORT || 3500;
+
+// custom middleware for logging events
+app.use(logger);
+
+// CORS - Cross Origin Resource Sharing
+const whitelist = [
+  'https://www.yoursite.com',
+  'http://127.0.0.1:5500',
+  'http://localhost:3500',
+];
+const corsOptions = {
+  origin: (reqOrigin, callback) => {
+    if (whitelist.indexOf(reqOrigin) != -1 || !reqOrigin) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+  optionsSuccessStatus: 200,
+};
+app.use(cors(corsOptions));
 
 // built in middleware to handle url encoded data
 // in other words, form data
@@ -63,5 +87,7 @@ app.get('/chain(.html)?', [one, two, three]);
 app.get('/*', (req, res) => {
   res.status(404).sendFile(path.join(__dirname, 'views', '404.html'));
 });
+
+app.use(errorHandler);
 
 app.listen(PORT, () => console.log(`Your server is running on port ${PORT}`));
