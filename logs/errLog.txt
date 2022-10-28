@@ -1,1 +1,2 @@
 20221028	13:44:12	fc23cb16-44fb-4457-a7ec-8d4ff0768a21	Error: Not allowed by CORS
+20221028	13:48:35	ce92ccb9-7554-4280-934f-d677b4726a66	TypeError: whitelist.index is not a function
