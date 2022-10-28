@@ -1,7 +1,7 @@
 import express from 'express';
 import path from 'path';
 import cors from 'cors';
-import { logEvents, logger } from './middleware/logEvents.js';
+import { logger } from './middleware/logEvents.js';
 import { errorHandler } from './middleware/errorHandler.js';
 
 const app = express();
